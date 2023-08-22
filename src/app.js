@@ -8,6 +8,7 @@ const teas = [
     {name: "Breakfast", brand: "Yorkshire Tea"},
     {name: "Green", brand: "Lipton"},
     {name: "Yerba Mate", brand: "Some argentinian brand, idk"},
+    {name: "white tea", brand: "lol"},
 ]
 
 app.get("/teas", (req, res) => {
